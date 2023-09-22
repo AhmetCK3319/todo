@@ -12,6 +12,9 @@ urlpatterns = [
     
     #edit feature
     path('edit_task/<int:pk>',views.edit_task,name='edit_task'),
+
+    #delete feature
+    path('delete_task/<int:pk>',views.delete_task,name='delete_task'),
     
 
 ]
